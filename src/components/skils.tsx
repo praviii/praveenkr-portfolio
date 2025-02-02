@@ -1,7 +1,7 @@
 import dots from '@/assets/Dots.svg';
 import boxs from '@/assets/box.svg';
 
-export default function Skils() {
+export default function Skils( ) {
     return (
         <div className='flex flex-col gap-4 pt-[3rem]'>
             <div className='text-white text-[2rem] font-medium flex items-center gap-[1rem]'><div><span className='text-primarColor'>#</span>skils</div>
