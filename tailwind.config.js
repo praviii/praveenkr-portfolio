@@ -6,7 +6,13 @@ export default {
   ],
   darkMode:'selector',
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        primarColor:"#5EEAD4",
+        gray:'#ABB2BF',
+        white:'#FFFFFF'
+      }
+    },
   },
   plugins: [require('tailwindcss-motion')], 
 }

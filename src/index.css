@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,5 +6,10 @@
   margin: 0;
   min-height: 100vh;
   padding: 0;
-  font-family: "Roboto Flex", sans-serif;
+  font-family: "Fira Code", serif;
+  background: #0f172a;
+}
+
+body{
+  cursor:url('assets/idea.png'), auto;
 }

@@ -1,7 +1,6 @@
 import { useEffect, useRef } from "react";
 import { Loader } from "@googlemaps/js-api-loader";
 import icon from '../assets/working.png'
-import darkMode from './dark-mode.json'
 
 
 export const MyLocation = () => {
@@ -21,7 +20,6 @@ export const MyLocation = () => {
                     zoom: 9,
                     mapId: 'one',
                     disableDefaultUI:true,
-                    styles:darkMode
                 });
                 const markerElement = document.createElement("div");
                 markerElement.style.display = "flex";
@@ -59,6 +57,6 @@ export const MyLocation = () => {
     }, []);
     console.log(import.meta.env.GOOGLE_API_KEY)
     return (
-        <div ref={mapRef} style={{ width: "100%", height: "450px", borderRadius:'10px' }} />
+        <div ref={mapRef} style={{ width: "100%", height: "480px", borderRadius:'10px' }} />
     );
 };
