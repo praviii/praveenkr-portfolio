@@ -8,14 +8,14 @@ export default function Skils( ) {
                 <hr className='border-solid border-[1px] border-primarColor p-0 m-0 w-[20rem]' />
             </div>
             <div className='w-full flex gap-40 text-white'>
-                <div className='flex flex-col gap-4 w-[40%] relative'>
+                <div className='hidden lg:flex flex-col gap-4 w-[40%] relative'>
                     <img src={boxs} className='w-[10rem]' />
                     <img src={dots} className='w-[7rem] absolute right-0 bottom-0' />
                     <div className='border border-solid border-gray h-[7rem] w-[7rem] absolute top-[5%] right-10'></div>
                     <div className='border border-solid border-gray h-[7rem] w-[3rem] absolute top-[25%] left-[50%] -rotate-12'></div>
                     <img src={dots} className='w-[5rem] absolute left-[30%] bottom-[10%] rotate-45' />
                 </div>
-                <div className='flex gap-[2rem] w-[60%]'>
+                <div className='flex flex-col lg:flex-row gap-[2rem] w-full lg:w-[60%]'>
                     <div className='flex flex-col'>
                         <div className='py-2 px-8 border border-solid border-gray'>Languages</div>
                         <div className='py-2 px-8 border border-solid border-gray'>

@@ -5,7 +5,7 @@ import codepen from '@/assets/codepen-icon.svg'
 
 export default function Links() {
     return (
-        <div className='absolute flex flex-col items-center gap-4'>
+        <div className='hidden absolute lg:flex flex-col items-center gap-4'>
             <svg width="100" height="170" version="1.1" xmlns="http://www.w3.org/2000/svg">
                 <path d='M 50 0 V 170' stroke='#ABB2BF' />
             </svg>

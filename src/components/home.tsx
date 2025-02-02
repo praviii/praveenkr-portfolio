@@ -4,8 +4,8 @@ import hi from '@/assets/hi.png'
 
 function Home() {
     return (
-        <div className='w-full flex text-white pt-[10rem]'>
-            <div className='flex flex-col justify-center items-center gap-4 w-[60%]'>
+        <div className='w-full flex flex-col gap-8 lg:flex-row text-white py-8 lg:pt-[10rem]'>
+            <div className='flex flex-col justify-center items-center gap-4 w-full lg:w-[60%]'>
                 <div className='text-[2rem] font-semibold'>
                     Hi (வணக்கம்), I'm Praveenkumar — <span className='text-primarColor'>Software Engineer</span>.
                 </div>

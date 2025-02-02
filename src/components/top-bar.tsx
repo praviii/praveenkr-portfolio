@@ -1,6 +1,6 @@
 function TopBar(props: TopBarProps) {
     return (
-        <div className='w-full flex justify-between'>
+        <div className='hidden lg:flex w-full justify-between'>
             <div className='font-bold text-white'>
                 PRAVEEN KR
             </div>
