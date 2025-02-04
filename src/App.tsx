@@ -4,7 +4,7 @@ import AboutMe from './components/about-me';
 import Experience from './components/experience';
 import Home from './components/home';
 import Links from './components/links';
-import Skils from './components/skils';
+import Skills from './components/skils';
 import TopBar from './components/top-bar';
 import dots from '@/assets/Dots.svg';
 
@@ -42,7 +42,7 @@ function App() {
           <Experience />
         </div>
         <div ref={skilsRef}>
-          <Skils />
+          <Skills />
         </div>
         <div ref={abouMeRef}>
           <AboutMe />

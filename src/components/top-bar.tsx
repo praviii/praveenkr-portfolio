@@ -12,7 +12,7 @@ function TopBar(props: TopBarProps) {
                     <span className='text-primarColor'>#</span>work
                 </div>
                 <div className="cursor-pointer" onClick={() => props.scrollToSection(props.skilsRef)}>
-                    <span className='text-primarColor'>#</span>skils
+                    <span className='text-primarColor'>#</span>skills
                 </div>
                 <div className="cursor-pointer" onClick={() => props.scrollToSection(props.abouMeRef)}>
                     <span className='text-primarColor'>#</span>about-me

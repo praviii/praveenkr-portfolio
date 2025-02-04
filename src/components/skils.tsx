@@ -1,10 +1,10 @@
 import dots from '@/assets/Dots.svg';
 import boxs from '@/assets/box.svg';
 
-export default function Skils( ) {
+export default function Skills( ) {
     return (
         <div className='flex flex-col gap-4 pt-[3rem]'>
-            <div className='text-white text-[2rem] font-medium flex items-center gap-[1rem]'><div><span className='text-primarColor'>#</span>skils</div>
+            <div className='text-white text-[2rem] font-medium flex items-center gap-[1rem]'><div><span className='text-primarColor'>#</span>skills</div>
                 <hr className='border-solid border-[1px] border-primarColor p-0 m-0 w-[20rem]' />
             </div>
             <div className='w-full flex gap-40 text-white'>
