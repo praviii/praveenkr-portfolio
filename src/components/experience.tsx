@@ -9,7 +9,7 @@ export default function Experience() {
             <ol className="relative text-white border-s border-gray-200 dark:border-gray-700">
                 <li className="mb-10 ms-4">
                     <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 bg-primarColor border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                    <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">February 2022 - Present</time>
+                    <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">February 2022 - March 2025</time>
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white">IQZ Systems</h3>
                     <p className="mb-4 text-base font-normal text-gray dark:text-gray-400">Upgraded Node and dependencies across 100+ repositories, reducing build errors by 30%. Boosted test coverage to 85%, cutting production bugs by 25%. Enhanced API endpoints, improving response times by 20%. Built efficient search, filtering, and lazy loading, increasing data retrieval speed by 25%. Developed reusable components and optimized styling, improving development efficiency by 20%. Led front-end development, refining UI/UX and building a drag-and-drop Form Builder. Integrated third-party sheets with a database for seamless form response storage. Collaborated with architects on feature development and adopted best coding practices, enhancing maintainability by 40%.</p>
                 </li>

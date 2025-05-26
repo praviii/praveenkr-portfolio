@@ -20,8 +20,8 @@ export default function Skills( ) {
                         <div className='py-2 px-8 border border-solid border-gray'>Languages</div>
                         <div className='py-2 px-8 border border-solid border-gray'>
                             <div>Typescript</div>
+                            <div>Go</div>
                             <div>Javascript</div>
-                            <div>Go(learning)</div>
                         </div>
                     </div>
                     <div className='flex flex-col gap-4'>
@@ -37,7 +37,7 @@ export default function Skills( ) {
                             <div className='py-2 px-8 border border-solid border-gray'>Methodologies</div>
                             <div className='py-2 px-8 border border-solid border-gray'>
                             <div>Agile</div>
-                            <div>Test driven developement(TDD)</div>
+                            <div>Test driven development(TDD)</div>
                             </div>
                         </div>
                     </div>
